@@ -2,3 +2,4 @@ spring:
   cloud:
     config:
       application: application-config-sample
+      virtual-host-name: ${spring.application.name}-v${spring.application.majorVersion}
