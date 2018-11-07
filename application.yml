@@ -5,3 +5,4 @@ spring:
 
 game:
   name: superapp
+  secret: {ciper}aa2b597727ee5aba1ed5dd718b74037f00048efe4a03396195d52644cc232546
