@@ -8,7 +8,7 @@ class GroovyRoutes {
     public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
         return builder.routes()
             .route("resource", (Function) { r -> r.path("/google") })
-            .uri("http://www.google.com"))
+            .uri("http://www.google.com")
             .build();
     }
 
