@@ -6,3 +6,4 @@ spring:
 game:
   name: superapp
   secret: awesome
+  wonder: how
